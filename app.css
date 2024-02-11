@@ -139,7 +139,7 @@ body {
     width: 100%;
     background-color: #60a9ff;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -157,12 +157,18 @@ body {
     text-align: center;
     /* flex-wrap: wrap; */
     align-items: flex-start;
-    /* flex-shrink: 1;
-    flex-grow: 1; */
+    /* flex-shrink: 1; */
+    flex-grow: 1;
 
 }
 
 .pricing-plan {
     padding: 20px 25px;
     flex-basis: 30px;
+    flex-grow: 1;
+}
+
+.pricing-img {
+    max-width: 100%;
+
 }
